@@ -1,6 +1,6 @@
 # npmtest-xml2js
 
-#### test coverage for  [xml2js (v0.4.17)](https://github.com/Leonidas-from-XIV/node-xml2js)  [![npm package](https://img.shields.io/npm/v/npmtest-xml2js.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-xml2js) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-xml2js.svg)](https://travis-ci.org/npmtest/node-npmtest-xml2js)
+#### basic test coverage for  [xml2js (v0.4.17)](https://github.com/Leonidas-from-XIV/node-xml2js)  [![npm package](https://img.shields.io/npm/v/npmtest-xml2js.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-xml2js) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-xml2js.svg)](https://travis-ci.org/npmtest/node-npmtest-xml2js)
 
 #### Simple XML to JavaScript object converter.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-xml2js/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-xml2js/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-xml2js/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-xml2js/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-xml2js/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-xml2js/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-xml2js/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-xml2js/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-xml2js/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-xml2js/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-xml2js/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-xml2js/build/coverage.html/index.html)
 
@@ -260,7 +260,8 @@
         "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
         "test": "zap"
     },
-    "version": "0.4.17"
+    "version": "0.4.17",
+    "bin": {}
 }
 ```
 
